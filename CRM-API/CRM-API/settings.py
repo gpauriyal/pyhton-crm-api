@@ -76,7 +76,7 @@ REST_FRAMEWORK = {
     ],
 }
 
-ROOT_URLCONF = 'HOME.urls'
+ROOT_URLCONF = 'CRM-API.urls'
 
 TEMPLATES = [
     {
@@ -94,7 +94,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'HOME.wsgi.application'
+WSGI_APPLICATION = 'CRM-API.wsgi.application'
 
 
 # Database
